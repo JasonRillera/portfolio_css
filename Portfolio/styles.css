@@ -1,0 +1,121 @@
+body *{
+    padding:0px;
+    margin:0px;
+    font-family: Arial;
+}
+.container{
+    width:960px;
+    height:1000px;
+}
+.header{
+    width:938px;
+    height:30px;
+    padding:15px;
+}
+.header h2{
+    display:inline-block;
+    margin-right:480px;
+}
+.header h3{
+    display:inline-block;
+}
+.main_content{
+    padding:20px 20px;
+    width:929px;
+    height:910px;
+    background-color: #6F5964;
+}
+.main_content img{
+    margin-bottom:20px;
+    width:410px;
+    height:auto;
+    border:5px solid #A5A4AB;
+    display: inline-block;
+}
+.main_content .about_me_section{
+    background-color: #EDE6ED;
+    width:500px;
+    display:inline-block;
+    vertical-align: top;
+    height:280px;
+}
+.main_content .about_me_section h2{
+    padding: 5px 10px;
+    background-color: #A5A4AB;
+    color: white;
+}
+.main_content .about_me_section a{
+    color: black;
+}
+.main_content p{
+    margin-top: 10px;
+    margin-bottom:15px;
+    padding-left:10px;
+}
+.main_content a{
+    padding-left:10px;
+}
+.main_content .project{
+    width: 295px;
+    height: 608px;
+    display: inline-block;
+    background-color: lightgray;
+    vertical-align: top;
+    margin-right: 11px;
+}
+.project img{
+    width: 293px;
+    margin: 0px;
+    border: none
+}
+.project h2 {
+	width: 275px;
+	padding: 5px 10px;
+    color: white;
+    background-color: #A5A4AB;
+}
+.project p{
+    height: 175px;
+}
+.tech_images{
+    padding: 15px 0px 0px 12px
+}
+.tech_images img{
+    width: 40px;
+}
+.tech_images li {
+    display: inline-block;
+    margin-right: 10px
+}
+.project button{
+    background-color: green;
+    color: white;
+    border: solid 1px black;
+    border-radius: 3px;
+    padding:5px;
+    margin: 8px 100px;
+    font-weight: 900;
+}
+.footer{
+    width:968px;
+    height: 50px;
+}
+.footer p{
+    margin: auto;
+    width: 240px;
+}
+.footer ul {
+    width: 390px;
+    margin: auto;
+}
+.footer ul li{
+    display: inline-block;
+}
+.footer img{
+    width: 23px;
+    height: auto;
+    margin: auto;
+}
+.footer, .header{
+    background-color: #f8f8f8;
+}
